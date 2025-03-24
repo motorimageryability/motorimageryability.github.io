@@ -1,4 +1,13 @@
 <style>
+
+body {margin:0;
+	font-family: Arial, sans-serif; 22px;
+	margin: auto;
+ 	width: 80%;
+	max-width: 1200px;
+ 	padding: 10px;
+	}
+
 .table_component {
     overflow: auto;
     width: 100%;
@@ -7,7 +16,7 @@
 .table_component table {
     border: 0px solid #dededf;
     height: 100px;
-    width: 100%;
+    
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 1px;
@@ -17,6 +26,7 @@
 .table_component caption {
     caption-side: top;
     text-align: left;
+	font-weight: bold;
 }
 
 .table_component th {
@@ -42,62 +52,235 @@
 }
 </style>
 
+<body>
+<br>
+<h1 align='center'>The Movement Imagery Ability Task Repository</h1>
+<br>
+<h2>About the Repository</h2>
+<p>This repository is designed to provide an index of open source tasks used to measure movement imagery ability (i.e. how well people can imagine performing movements). We have outlined our proposals for why this is important in our preprint.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales vel ligula at tristique. Aliquam condimentum tincidunt ullamcorper. Nullam pharetra finibus lacus eget feugiat. Quisque tristique eleifend ex eget lobortis. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc id malesuada felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur vel turpis massa. Nullam eu ipsum sit amet diam vehicula venenatis non et odio. Morbi est odio, egestas ac nulla vitae, sagittis tincidunt tortor. Suspendisse dolor neque, tempus eu tortor id, suscipit maximus lectus. </p>
 
 
-<h1>The Movement Imagery Ability Repository</h1>
-
-<p> Here is some text describing the general purpose of the repository.</p>
-<p> here is a link to our preprint </p>
-
-<div class="table_component" role="region" tabindex="0">
-<table>
-    <caption>Index of Tasks</caption>
+<br>
+<h2>Index of Tasks</h2>
+<p>Click the title to learn more about each task:</p>
+<div class="table_component" role="region" >
+<table width=95% align="center">
     <thead>
         <tr>
-            <th style="width:20%">Name</th>
-            <th style="width:50%">Description</th>
-			<th style="width:30%">Source</th>
+            <th width=33%>Name</th>
+            <th width=67%>Description</th>
+			<!-- <th style="width:30%">Source</th>-->
         </tr>
     </thead>
     <tbody>
 	    
 		<tr>
             <td>Dual Virtual Radial Fitts' Task</td>
-            <td>Execute and imagine tapping on varying radially arranged targets on the screen with simultaneous spacebar presses.</td>
-			<td></td>
+            <td>Execute and imagine tapping on radially arranged targets</td>
+			<!-- <td></td>-->
         </tr>
 		
 		<tr>
             <td>Final Position Judgement Task</td>
             <td></td>
-			<td></td>
+			<!-- <td></td>-->
         </tr>
 		
         <tr>
             <td>Hand Laterality Judgement Task (HLJT)</td>
-            <td>See images of rotated hands and judge whether they are right or left.</td>
-			<td><a href="https://doi.org/10.1016/j.neuroscience.2025.02.056">Moreno-Verdú et al., 2025</a></td>
+            <td>See images of rotated hands and judge whether they are right or left</td>
+			<!-- <td><a href="https://doi.org/10.1016/j.neuroscience.2025.02.056">Moreno-Verdú et al., 2025</a></td>-->
         </tr>
         <tr>
 
             <td>Finger Sequence Task</td>
-            <td>Execute and imagine simple and complex 8-digit finger sequences with the dominant hand.</td>
-			<td></td>
+            <td>Execute and imagine simple and complex 8-digit finger sequences</td>
+			<!-- <td></td>-->
         </tr>
         <tr>
 
             <td>Mental Body Rotation Task</td>
             <td></td>
-			<td></td>
+			<!-- <td></td>-->
         </tr>
         <tr>
 
             <td>Mental Paper Folding Task</td>
             <td></td>
-			<td></td>
+			<!-- td></td>-->
         </tr>
 
     </tbody>
 </table>
 <!-- <div style="margin-top:8px">Made with <a href="https://www.htmltables.io/" target="_blank">HTML Tables</a></div> -->
 </div>
+<br>
+
+
+<h2>Task Details</h2>
+
+<div class="table_component" role="region">
+<table width=95% align=center>
+    <thead>
+        <tr>
+			<th colspan=2>The Hand Laterality Judgement Task (HLJT)</th>   
+			<th></th>   
+        </tr>
+    </thead>
+    <tbody>
+		<tr>
+            <td>Description:</td>
+            <td>Judge whether images present a left or right hand</td>
+        </tr>
+
+		<tr>
+            <td>Type:</td>
+            <td>Mental Rotation</td>
+        </tr>
+
+		<tr>
+            <td>Dimenson(s):</td>
+            <td>Manipulation</td>
+        </tr>
+
+		<tr>
+            <td>Manuscript:</td>
+            <td>doi here</td>
+        </tr>
+		
+		<tr>
+            <td>Task Repo:</td>
+            <td>https://osf.io/8h7ec/</td>
+        </tr>
+		
+		<tr>
+            <td>Details:</td>
+            <td>The Hand Laterality Judgement Task (HLJT) is considered a measure of the ability to manipulate motor images.
+The ‘biomechanical constraints’ effect (longer reaction times for hand rotations towards anatomically difficult
+versus biomechanically easier movements) is considered the behavioural hallmark indicating motor imagery is
+being used. Previous work has used diverse HLJT paradigms, and there is no standardized procedure for the task.
+We developed an open-source, freely available version of the HLJT in PsychoPy2, which needs no programming
+skills and is highly customisable. Some studies suggest responding to the HLJT with the hands may interfere with
+performance, which would limit practical application of the task. We examined this potential issue using in-
+person and online versions. For the in-person version, 40 right-footed/handed individuals performed the HLJT
+with their feet or bimanually (N = 20 each). For the online version, 60 right-handed individuals performed the
+task bimanually or unimanually (N = 20 each). Bayesian mixed-effect analyses quantified the evidence for and
+against equivalence within and between the in-person and online versions. Both versions replicated previously
+described behavioural phenomena, including effects of angle, hand view, and the ‘biomechanical constraints’
+effect. While responding with different effectors modified overall reaction times, it did not interact with other
+factors analysed, and did not affect accuracy or the ‘biomechanical constraints’ effect. There was also evidence
+for equivalence between in-person and online bimanual groups for all measures. We conclude that this open-
+source, standardized HLJT protocol (available at https://osf.io/8h7ec/) can reliably detect previously identi-
+fied effects and works equally well in-person or online.</td>
+        </tr>
+		
+		
+	</tbody>
+</table>
+</div>
+
+
+<br>
+<div class="table_component" role="region">
+<table width=95% align=center>
+    <thead>
+        <tr>
+			<th colspan=2>The Hand Laterality Judgement Task (HLJT)</th>   
+			<th></th>   
+        </tr>
+    </thead>
+    <tbody>
+		<tr>
+            <td>Description:</td>
+            <td>Judge whether images present a left or right hand</td>
+        </tr>
+
+		<tr>
+            <td>Type:</td>
+            <td>Mental Rotation</td>
+        </tr>
+
+		<tr>
+            <td>Dimenson(s):</td>
+            <td>Manipulation</td>
+        </tr>
+
+		<tr>
+            <td>Manuscript:</td>
+            <td>doi here</td>
+        </tr>
+		
+		<tr>
+            <td>Task Repo:</td>
+            <td>https://osf.io/8h7ec/</td>
+        </tr>
+		
+		<tr>
+            <td>Details:</td>
+            <td>The Hand Laterality Judgement Task (HLJT) is considered a measure of the ability to manipulate motor images.
+The ‘biomechanical constraints’ effect (longer reaction times for hand rotations towards anatomically difficult
+versus biomechanically easier movements) is considered the behavioural hallmark indicating motor imagery is
+being used. Previous work has used diverse HLJT paradigms, and there is no standardized procedure for the task.
+We developed an open-source, freely available version of the HLJT in PsychoPy2, which needs no programming
+skills and is highly customisable. Some studies suggest responding to the HLJT with the hands may interfere with
+performance, which would limit practical application of the task. We examined this potential issue using in-
+person and online versions. For the in-person version, 40 right-footed/handed individuals performed the HLJT
+with their feet or bimanually (N = 20 each). For the online version, 60 right-handed individuals performed the
+task bimanually or unimanually (N = 20 each). Bayesian mixed-effect analyses quantified the evidence for and
+against equivalence within and between the in-person and online versions. Both versions replicated previously
+described behavioural phenomena, including effects of angle, hand view, and the ‘biomechanical constraints’
+effect. While responding with different effectors modified overall reaction times, it did not interact with other
+factors analysed, and did not affect accuracy or the ‘biomechanical constraints’ effect. There was also evidence
+for equivalence between in-person and online bimanual groups for all measures. We conclude that this open-
+source, standardized HLJT protocol (available at https://osf.io/8h7ec/) can reliably detect previously identi-
+fied effects and works equally well in-person or online.</td>
+        </tr>
+		
+		
+	</tbody>
+</table>
+</div>
+
+
+
+
+
+
+<br>
+
+<h2>About the repository</h2>
+
+<p>This project is develped as a collaboration between research groups at the following institutions:</p>
+<div class="table_component" role="region">
+<table width=60% align=center>
+    <thead>
+        <tr>
+            <th style="width:34%">Institution</th>
+            <th style="width:33%">Primary Contributor</th>
+			<th style="width:33%">Principle Investigator</th>
+
+        </tr>
+    </thead>
+    <tbody>
+	
+		<tr>
+            <td><img src="images/Universitaet_innsbruck_logo.svg" height=60px></td>
+            <td>Carla Czilczer</td>
+			<td>Stephan Dahm</td>
+        </tr>
+	
+		<tr>
+            <td><img src="images/UCLouvain_logo.svg"height=40px></td>
+            <td>Marcos Moreno-Verdu</td>
+			<td>Robert Hardwick</td>
+        </tr>
+	
+	</tbody>
+
+</table>
+</div>
+
+</body>
+
+
