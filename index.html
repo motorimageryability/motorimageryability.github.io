@@ -54,9 +54,9 @@ body {margin:0;
 
 <body>
 <br>
-<h1 align='center'>The Movement Imagery Ability Task Repository</h1>
+<h1 align='center'>The Movement Imagery Ability Task Project</h1>
 
-<p>This repository is designed to provide an index of open source tasks used to measure movement imagery ability (i.e. how well people can imagine performing movements). We have outlined our proposals for why this is important in our preprint.</p>
+<p>This website is designed to provide an index of open source tasks used to measure movement imagery ability (i.e. how well people can imagine performing movements). We have outlined our proposals for why this is important in our preprint.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales vel ligula at tristique. Aliquam condimentum tincidunt ullamcorper. Nullam pharetra finibus lacus eget feugiat. Quisque tristique eleifend ex eget lobortis. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc id malesuada felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur vel turpis massa. Nullam eu ipsum sit amet diam vehicula venenatis non et odio. Morbi est odio, egestas ac nulla vitae, sagittis tincidunt tortor. Suspendisse dolor neque, tempus eu tortor id, suscipit maximus lectus. </p>
 
 
@@ -75,38 +75,40 @@ body {margin:0;
     <tbody>
 	    
 		<tr>
-            <td>Dual Virtual Radial Fitts' Task</td>
-            <td>Execute and imagine tapping on radially arranged targets</td>
+            <td><a href="#anchorDVRFT">Dual Virtual Radial Fitts' Task</a></td>
+            <td><a href="#anchorDVRFT">Execute and imagine tapping on radially arranged targets</a></td>
 			<!-- <td></td>-->
         </tr>
 		
 		<tr>
-            <td>Final Position Judgement Task</td>
-            <td></td>
+            <td><a href="#anchorFPJT">Final Position Judgement Task</a></td>
+            <td><a href="#anchorFPJT">Brief Description here</a></td>
+			<!-- <td></td>-->
+        </tr>
+		
+		<tr>
+            <td><a href="#anchorFST">Finger Sequence Task</a></td>
+            <td><a href="#anchorFST">Execute and imagine simple and complex 8-digit finger sequences</a></td>
 			<!-- <td></td>-->
         </tr>
 		
         <tr>
-            <td>Hand Laterality Judgement Task (HLJT)</td>
-            <td>See images of rotated hands and judge whether they are right or left</td>
+            <td><a href="#anchorHLJT">Hand Laterality Judgement Task (HLJT)</a></td>
+            <td><a href="#anchorHLJT">See images of rotated hands and judge whether they are right or left</a></td>
 			<!-- <td><a href="https://doi.org/10.1016/j.neuroscience.2025.02.056">Moreno-Verdú et al., 2025</a></td>-->
         </tr>
+        
         <tr>
 
-            <td>Finger Sequence Task</td>
-            <td>Execute and imagine simple and complex 8-digit finger sequences</td>
+            <td><a href="#anchorMBRT">Mental Body Rotation Task</a></td>
+            <td><a href="#anchorMBRT">Brief Description here</a></td>
 			<!-- <td></td>-->
         </tr>
+		
         <tr>
 
-            <td>Mental Body Rotation Task</td>
-            <td></td>
-			<!-- <td></td>-->
-        </tr>
-        <tr>
-
-            <td>Mental Paper Folding Task</td>
-            <td></td>
+            <td><a href="#anchorMPFT">Mental Paper Folding Task</a></td>
+            <td><a href="#anchorMPFT">Brief description here</td>
 			<!-- td></td>-->
         </tr>
 
@@ -120,135 +122,298 @@ body {margin:0;
 <h2>Task Details</h2>
 
 <div class="table_component" role="region">
-<table width=95% align=center>
+<table width=95% align=center
+  <colgroup>
+    <col width=15%/>	<!--Used to align row titles -->
+    <col width=65%/>	<!--Used to align row content -->
+    <col width=20%/>	<!--Used to position image for task -->
+  </colgroup>
+
     <thead>
         <tr>
-			<th colspan=2>The Hand Laterality Judgement Task (HLJT)</th>   
-			<th></th>   
+			<th colspan=3><p id="anchorDVRFT">Dual Virtual Radial Fitts' Task</p></th>    
         </tr>
     </thead>
     <tbody>
 		<tr>
-            <td>Description:</td>
-            <td>Judge whether images present a left or right hand</td>
+			<td><b>Type:</b></td>
+			<td>Type here</td>
+			<td rowspan=4><img src="images/icon.png", align="right", width=200px, height=200px></td>
         </tr>
 
 		<tr>
-            <td>Type:</td>
-            <td>Mental Rotation</td>
-        </tr>
-
+			<td><b>Dimension(s):</b></td>
+			<td>Dimensions Here</td>
+        </tr>		
 		<tr>
-            <td>Dimenson(s):</td>
-            <td>Manipulation</td>
-        </tr>
-
-		<tr>
-            <td>Manuscript:</td>
-            <td>doi here</td>
-        </tr>
+			<td><b>Repository:</b>
+            <td>Hyperlink here</td>
+		</tr>
 		
 		<tr>
-            <td>Task Repo:</td>
-            <td>https://osf.io/8h7ec/</td>
-        </tr>
+			<td><b>Citation:</b>
+            <td>Hyperlink here</td>
+		</tr>
 		
 		<tr>
-            <td>Details:</td>
-            <td>The Hand Laterality Judgement Task (HLJT) is considered a measure of the ability to manipulate motor images.
-The ‘biomechanical constraints’ effect (longer reaction times for hand rotations towards anatomically difficult
-versus biomechanically easier movements) is considered the behavioural hallmark indicating motor imagery is
-being used. Previous work has used diverse HLJT paradigms, and there is no standardized procedure for the task.
-We developed an open-source, freely available version of the HLJT in PsychoPy2, which needs no programming
-skills and is highly customisable. Some studies suggest responding to the HLJT with the hands may interfere with
-performance, which would limit practical application of the task. We examined this potential issue using in-
-person and online versions. For the in-person version, 40 right-footed/handed individuals performed the HLJT
-with their feet or bimanually (N = 20 each). For the online version, 60 right-handed individuals performed the
-task bimanually or unimanually (N = 20 each). Bayesian mixed-effect analyses quantified the evidence for and
-against equivalence within and between the in-person and online versions. Both versions replicated previously
-described behavioural phenomena, including effects of angle, hand view, and the ‘biomechanical constraints’
-effect. While responding with different effectors modified overall reaction times, it did not interact with other
-factors analysed, and did not affect accuracy or the ‘biomechanical constraints’ effect. There was also evidence
-for equivalence between in-person and online bimanual groups for all measures. We conclude that this open-
-source, standardized HLJT protocol (available at https://osf.io/8h7ec/) can reliably detect previously identi-
-fied effects and works equally well in-person or online.</td>
+            <td colspan=3>
+            <p>Description here</p>
+            <p></p>
+			</td>
         </tr>
-		
 		
 	</tbody>
 </table>
 </div>
-
-
 <br>
+
 <div class="table_component" role="region">
-<table width=95% align=center>
+<table width=95% align=center
+  <colgroup>
+    <col width=15%/>	<!--Used to align row titles -->
+    <col width=65%/>	<!--Used to align row content -->
+    <col width=20%/>	<!--Used to position image for task -->
+  </colgroup>
+
     <thead>
         <tr>
-			<th colspan=2>The Hand Laterality Judgement Task (HLJT)</th>   
-			<th></th>   
+			<th colspan=3><p id="anchorFPJT">Final Position Judgement Task</p></th>    
         </tr>
     </thead>
     <tbody>
 		<tr>
-            <td>Description:</td>
-            <td>Judge whether images present a left or right hand</td>
+			<td><b>Type:</b></td>
+			<td>Type here</td>
+			<td rowspan=4><img src="images/icon.png", align="right", width=200px, height=200px></td>
         </tr>
 
 		<tr>
-            <td>Type:</td>
-            <td>Mental Rotation</td>
-        </tr>
-
+			<td><b>Dimension(s):</b></td>
+			<td>Dimensions Here</td>
+        </tr>		
 		<tr>
-            <td>Dimenson(s):</td>
-            <td>Manipulation</td>
-        </tr>
-
-		<tr>
-            <td>Manuscript:</td>
-            <td>doi here</td>
-        </tr>
+			<td><b>Repository:</b>
+            <td>Hyperlink here</td>
+		</tr>
 		
 		<tr>
-            <td>Task Repo:</td>
-            <td>https://osf.io/8h7ec/</td>
-        </tr>
+			<td><b>Citation:</b>
+            <td>Hyperlink here</td>
+		</tr>
 		
 		<tr>
-            <td>Details:</td>
-            <td>The Hand Laterality Judgement Task (HLJT) is considered a measure of the ability to manipulate motor images.
-The ‘biomechanical constraints’ effect (longer reaction times for hand rotations towards anatomically difficult
-versus biomechanically easier movements) is considered the behavioural hallmark indicating motor imagery is
-being used. Previous work has used diverse HLJT paradigms, and there is no standardized procedure for the task.
-We developed an open-source, freely available version of the HLJT in PsychoPy2, which needs no programming
-skills and is highly customisable. Some studies suggest responding to the HLJT with the hands may interfere with
-performance, which would limit practical application of the task. We examined this potential issue using in-
-person and online versions. For the in-person version, 40 right-footed/handed individuals performed the HLJT
-with their feet or bimanually (N = 20 each). For the online version, 60 right-handed individuals performed the
-task bimanually or unimanually (N = 20 each). Bayesian mixed-effect analyses quantified the evidence for and
-against equivalence within and between the in-person and online versions. Both versions replicated previously
-described behavioural phenomena, including effects of angle, hand view, and the ‘biomechanical constraints’
-effect. While responding with different effectors modified overall reaction times, it did not interact with other
-factors analysed, and did not affect accuracy or the ‘biomechanical constraints’ effect. There was also evidence
-for equivalence between in-person and online bimanual groups for all measures. We conclude that this open-
-source, standardized HLJT protocol (available at https://osf.io/8h7ec/) can reliably detect previously identi-
-fied effects and works equally well in-person or online.</td>
+            <td colspan=3>
+            <p>Description here</p>
+            <p></p>
+			</td>
         </tr>
-		
 		
 	</tbody>
 </table>
 </div>
+<br>
 
 
+<div class="table_component" role="region">
+<table width=95% align=center
+  <colgroup>
+    <col width=15%/>	<!--Used to align row titles -->
+    <col width=65%/>	<!--Used to align row content -->
+    <col width=20%/>	<!--Used to position image for task -->
+  </colgroup>
+
+    <thead>
+        <tr>
+			<th colspan=3><p id="anchorFST">Finger Sequence Task</p></th>    
+        </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><b>Type:</b></td>
+			<td>Type here</td>
+			<td rowspan=4><img src="images/icon.png", align="right", width=200px, height=200px></td>
+        </tr>
+
+		<tr>
+			<td><b>Dimension(s):</b></td>
+			<td>Dimensions Here</td>
+        </tr>		
+		<tr>
+			<td><b>Repository:</b>
+            <td>Hyperlink here</td>
+		</tr>
+		
+		<tr>
+			<td><b>Citation:</b>
+            <td>Hyperlink here</td>
+		</tr>
+		
+		<tr>
+            <td colspan=3>
+            <p>Description here</p>
+            <p></p>
+			</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>
+<br>
+
+
+
+<div class="table_component" role="region">
+<table width=95% align=center
+  <colgroup>
+    <col width=15%/>	<!--Used to align row titles -->
+    <col width=65%/>	<!--Used to align row content -->
+    <col width=20%/>	<!--Used to position image for task -->
+  </colgroup>
+
+    <thead>
+        <tr>
+			<th colspan=3><p id="anchorHLJT">The Hand Laterality Judgement Task (HLJT)</p></th>    
+        </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><b>Type:</b></td>
+			<td>Mental Rotation</td>
+			<td rowspan=4><img src="images/hljt.png", align="right", width=200px, height=200px></td>
+        </tr>
+
+		<tr>
+			<td><b>Dimension(s):</b></td>
+			<td>Manipulation</td>
+        </tr>		
+		<tr>
+			<td><b>Repository:</b>
+            <td><a href="https://osf.io/8h7ec/">https://osf.io/8h7ec/</a></td>
+		</tr>
+		
+		<tr>
+			<td><b>Citation:</b>
+            <td><a href="https://doi.org/10.1016/j.neuroscience.2025.02.056">Moreno-Verdú et al., 2025</a></td>
+		</tr>
+		
+		<tr>
+            <td colspan=3>
+            <p>The Hand Laterality Judgement Task (HLJT) was first introduced by Cooper and Shepard (1975),
+			who proposed that participants "determine whether a visually presented hand is left or right by moving a mental "phantom" of one of their own hands into the portrayed position and by then comparing its imagined appearance against the appearance of the externally presented hand." 
+			Many variants of the task have subsequently been examined in the context of studies of motor imagery.</p>
+			<p>The "biomechanical constraints effect", an effect where hands presented in more physically easy to achieve (medial) rotations are processed faster than those with more difficult (lateral) rotations 
+			is considered to be a hallmark of the use of motor imagery in the task.</p>
+			<p>This version of the task, as developed by Moreno-Verdu et al., (2025), presents hands at 8 angles (0 through 3XX degrees in 45 degree increments) in a 'palmar' or 'dorsal' view.
+			This implementaiton has been verified to provide equivalent results when performed with different effectors (e.g. the feet, bimanually, or unimanually), making it feasible for use with participants with impairments
+			in a specific effector.</p>
+			</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>
+<br>
+
+
+<div class="table_component" role="region">
+<table width=95% align=center
+  <colgroup>
+    <col width=15%/>	<!--Used to align row titles -->
+    <col width=65%/>	<!--Used to align row content -->
+    <col width=20%/>	<!--Used to position image for task -->
+  </colgroup>
+
+    <thead>
+        <tr>
+			<th colspan=3><p id="anchorMBRT">Mental Body Rotation Task</p></th>    
+        </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><b>Type:</b></td>
+			<td>Type here</td>
+			<td rowspan=4><img src="images/icon.png", align="right", width=200px, height=200px></td>
+        </tr>
+
+		<tr>
+			<td><b>Dimension(s):</b></td>
+			<td>Dimensions Here</td>
+        </tr>		
+		<tr>
+			<td><b>Repository:</b>
+            <td>Hyperlink here</td>
+		</tr>
+		
+		<tr>
+			<td><b>Citation:</b>
+            <td>Hyperlink here</td>
+		</tr>
+		
+		<tr>
+            <td colspan=3>
+            <p>Description here</p>
+            <p></p>
+			</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>
+<br>
+
+
+<div class="table_component" role="region">
+<table width=95% align=center
+  <colgroup>
+    <col width=15%/>	<!--Used to align row titles -->
+    <col width=65%/>	<!--Used to align row content -->
+    <col width=20%/>	<!--Used to position image for task -->
+  </colgroup>
+
+    <thead>
+        <tr>
+			<th colspan=3><p id="anchorMPFT">Mental Paper Folding Task</p></th>    
+        </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><b>Type:</b></td>
+			<td>Type here</td>
+			<td rowspan=4><img src="images/icon.png", align="right", width=200px, height=200px></td>
+        </tr>
+
+		<tr>
+			<td><b>Dimension(s):</b></td>
+			<td>Dimensions Here</td>
+        </tr>		
+		<tr>
+			<td><b>Repository:</b>
+            <td>Hyperlink here</td>
+		</tr>
+		
+		<tr>
+			<td><b>Citation:</b>
+            <td>Hyperlink here</td>
+		</tr>
+		
+		<tr>
+            <td colspan=3>
+            <p>Description here</p>
+            <p></p>
+			</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>
+<br>
 
 
 
 
 <br>
 
-<h2>About the repository</h2>
+<h2>About the project</h2>
 
 <p>This project is develped as a collaboration between research groups at the following institutions:</p>
 <div class="table_component" role="region">
